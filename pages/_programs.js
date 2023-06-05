@@ -16,6 +16,14 @@ export const programs = [
     commission: 30,
   },
   {
+    name: 'Testimonial',
+    logo: 'testimonial.svg',
+    description: 'Get testimonials from your customers with ease',
+    url: 'https://testimonial.io/',
+    programUrl: 'https://testimonial.to/affiliates',
+    commission: 30,
+  },
+  {
     name: 'Photo AI',
     logo: 'photoai.svg',
     description: 'Take photographs with AI',

@@ -30,6 +30,7 @@ export const programs = [
     url: 'https://photoai.com',
     programUrl: 'https://photo-ai.getrewardful.com',
     commission: 20,
+    category: 'ai',
   },
   {
     name: 'Video Tap',
@@ -46,6 +47,7 @@ export const programs = [
     url: 'https://www.oneupapp.io',
     programUrl: 'https://oneup.getrewardful.com',
     commission: 20,
+    category: 'social',
   },
   {
     name: 'GummySearch',
@@ -62,6 +64,7 @@ export const programs = [
     url: 'https://www.headshotpro.com/',
     programUrl: 'https://headshotpro-1.getrewardful.com/',
     commission: 20,
+    category: 'ai',
   },
   {
     name: 'Super Send',
@@ -72,6 +75,7 @@ export const programs = [
     programUrl: 'https://super-send.getrewardful.com',
     commission: 30,
     timeframe: '12 payments',
+    category: 'social',
   },
   {
     name: 'Tally',
@@ -97,6 +101,7 @@ export const programs = [
     url: 'https://typefully.app',
     programUrl: 'https://help.typefully.com/affiliate',
     commission: 20,
+    category: 'social',
   },
   {
     name: 'Closet Tools',

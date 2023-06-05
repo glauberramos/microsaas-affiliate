@@ -1,15 +1,48 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <div class="flex-grow flex">
+      <aside class="w-1/6 p-4 bg-gray-900 pt-12">
+        <h2 class="text-lg font-bold mb-2 text-gray-100">Order by</h2>
+        <select
+          v-model="orderBy"
+          class="w-full p-2 border rounded bg-white text-gray-900"
+        >
+          <option disabled value="">Please select</option>
+          <option value="name">Alphabetic</option>
+          <option value="commission">Commission</option>
+        </select>
+        <br /><br />
+        <h2 class="text-lg font-bold mb-2 text-gray-100">Filter Commission</h2>
+        <select
+          v-model="filterCommission"
+          class="w-full p-2 border rounded bg-white text-gray-900"
+        >
+          <option value="">All</option>
+          <option value="20">20%</option>
+          <option value="25">25%</option>
+          <option value="30">30%</option>
+          <option value="50">50%</option>
+        </select>
+        <br /><br />
+        <h2 class="text-lg font-bold mb-2 text-gray-100">Filter Category</h2>
+        <select
+          v-model="filterCategory"
+          class="w-full p-2 border rounded bg-white text-gray-900"
+        >
+          <option value="">All</option>
+          <option value="ai">AI</option>
+          <option value="social">Social Media</option>
+        </select>
+      </aside>
       <!-- Your existing code -->
-      <div class="p-4">
+      <div class="w-5/6 p-4">
         <h1
           class="p-4 mt-3 text-3xl font-extrabold tracking-tight text-slate-900"
         >
           MicroSaaS Affiliate Program Directory
         </h1>
         <div class="flex flex-wrap">
-          <div v-for="app in apps" :key="app.name" class="w-1/3 p-4">
+          <div v-for="app in filteredApps" :key="app.name" class="w-1/3 p-4">
             <div class="flex items-start p-2 bg-white rounded shadow">
               <img :src="app.logo" class="w-12 h-12 ml-2 mr-3 p-1" alt="logo" />
               <div>
@@ -41,53 +74,50 @@
             </div>
           </div>
         </div>
+        <h2 class="text-2xl font-bold mb-2">What is MicroSaaS?</h2>
+        <p class="mb-4">
+          MicroSaaS is a unique subset of the Software as a Service (SaaS)
+          model. MicroSaaS businesses are typically small, owner-operated
+          companies that are highly specialized. They are often run by solo
+          founders or small teams and serve a niche market.
+        </p>
+        <p class="mb-6">
+          MicroSaaS businesses thrive by focusing on a narrow problem and
+          providing a simple, effective solution. They typically require less
+          capital to start and operate than larger SaaS businesses and can
+          become profitable more quickly.
+        </p>
+
+        <h2 class="text-2xl font-bold mb-2">Benefits of Affiliate Programs</h2>
+        <p class="mb-4">
+          Affiliate programs offer an excellent opportunity to generate passive
+          income. By promoting products or services, affiliates can earn a
+          commission on any sales made through their referral link.
+        </p>
+        <p class="mb-6">
+          These programs are particularly popular in the MicroSaaS space, where
+          businesses are always looking for cost-effective ways to reach their
+          target audience. Affiliates can help drive traffic and sales, making
+          it a win-win for both parties.
+        </p>
+
+        <h2 class="text-2xl font-bold mb-2">
+          Choosing the Right MicroSaaS Affiliate Program
+        </h2>
+        <p class="mb-4">
+          When choosing an affiliate program, it's important to consider factors
+          like the commission rate, payment terms, and the relevance of the
+          product or service to your audience. It's also a good idea to use the
+          product yourself so you can promote it authentically.
+        </p>
+        <p class="mb-6">
+          Remember, the key to successful affiliate marketing is trust. Your
+          audience needs to trust that you're recommending products because you
+          genuinely believe they're valuable, not just because you're getting
+          paid.
+        </p>
       </div>
     </div>
-
-    <section class="p-4">
-      <h2 class="text-2xl font-bold mb-2">What is MicroSaaS?</h2>
-      <p class="mb-4">
-        MicroSaaS is a unique subset of the Software as a Service (SaaS) model.
-        MicroSaaS businesses are typically small, owner-operated companies that
-        are highly specialized. They are often run by solo founders or small
-        teams and serve a niche market.
-      </p>
-      <p class="mb-6">
-        MicroSaaS businesses thrive by focusing on a narrow problem and
-        providing a simple, effective solution. They typically require less
-        capital to start and operate than larger SaaS businesses and can become
-        profitable more quickly.
-      </p>
-
-      <h2 class="text-2xl font-bold mb-2">Benefits of Affiliate Programs</h2>
-      <p class="mb-4">
-        Affiliate programs offer an excellent opportunity to generate passive
-        income. By promoting products or services, affiliates can earn a
-        commission on any sales made through their referral link.
-      </p>
-      <p class="mb-6">
-        These programs are particularly popular in the MicroSaaS space, where
-        businesses are always looking for cost-effective ways to reach their
-        target audience. Affiliates can help drive traffic and sales, making it
-        a win-win for both parties.
-      </p>
-
-      <h2 class="text-2xl font-bold mb-2">
-        Choosing the Right MicroSaaS Affiliate Program
-      </h2>
-      <p class="mb-4">
-        When choosing an affiliate program, it's important to consider factors
-        like the commission rate, payment terms, and the relevance of the
-        product or service to your audience. It's also a good idea to use the
-        product yourself so you can promote it authentically.
-      </p>
-      <p class="mb-6">
-        Remember, the key to successful affiliate marketing is trust. Your
-        audience needs to trust that you're recommending products because you
-        genuinely believe they're valuable, not just because you're getting
-        paid.
-      </p>
-    </section>
 
     <!-- Footer -->
     <footer class="p-4 bg-gray-200 text-center">
@@ -109,7 +139,24 @@ export default {
   data() {
     return {
       apps: programs,
+      filterCommission: '',
+      orderBy: '',
+      filterCategory: '',
     }
+  },
+  computed: {
+    filteredApps() {
+      return this.apps
+        .filter((app) =>
+          this.filterCommission ? app.commission == this.filterCommission : true
+        )
+        .filter((app) =>
+          this.filterCategory ? app.category == this.filterCategory : true
+        )
+        .sort((a, b) => {
+          return this.orderBy ? (a[this.orderBy] > b[this.orderBy] ? 1 : -1) : 1
+        })
+    },
   },
 }
 </script>

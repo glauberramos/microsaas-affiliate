@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <div class="flex-grow md:flex">
-      <aside class="w-100 md:w-1/6 p-4 bg-gray-800 pt-8">
+      <aside class="w-100 md:w-1/6 p-4 bg-gray-800 pt-8 pl-6 pr-6">
         <h1 class="p-0 mb-4 text-2xl font-extrabold text-white">
           MicroSaaS Affiliate Programs
         </h1>
@@ -43,12 +43,12 @@
         </select>
       </aside>
       <!-- Your existing code -->
-      <div class="w-full md:w-5/6 p-4 bg-gray-100">
+      <div class="w-full md:w-5/6 bg-gray-100">
         <!-- <h1 class="p-4 mt-3 mb-0 pb-1 text-3xl font-extrabold text-slate-900">
           MicroSaaS Affiliate Programs
         </h1> -->
-        <p class="mt-3 ml-3 font-bold">{{ filteredApps.length }} results</p>
-        <div class="flex flex-wrap">
+        <p class="mt-6 font-bold pl-7">{{ filteredApps.length }} results</p>
+        <div class="flex flex-wrap pl-4 pr-4">
           <div
             v-for="app in filteredApps"
             :key="app.name"
@@ -103,7 +103,7 @@
             </div>
           </div>
         </div>
-        <div class="p-5">
+        <div class="p-7">
           <h2 class="text-2xl font-bold mb-2">What is MicroSaaS?</h2>
           <p class="mb-4">
             MicroSaaS is a unique subset of the Software as a Service (SaaS)
@@ -149,19 +149,18 @@
             getting paid.
           </p>
         </div>
+        <!-- Footer -->
+        <footer class="p-4 bg-gray-800 text-center text-white">
+          Made with ❤️ by
+          <a
+            href="https://easyretro.io"
+            target="_blank"
+            class="text-blue-500 hover:underline"
+            >EasyRetro</a
+          >
+        </footer>
       </div>
     </div>
-
-    <!-- Footer -->
-    <footer class="p-4 bg-gray-200 text-center">
-      Made with ❤️ by
-      <a
-        href="https://easyretro.io"
-        target="_blank"
-        class="text-blue-500 hover:underline"
-        >EasyRetro</a
-      >
-    </footer>
   </div>
 </template>
 

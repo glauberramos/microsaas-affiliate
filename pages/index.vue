@@ -72,7 +72,7 @@
                 </h2>
                 <p class="text-gray-500">{{ app.description }}</p>
 
-                <p class="text-sm text-gray-500">
+                <p class="text-sm text-gray-500 mt-1">
                   <strong>Commission: </strong
                   >{{
                     app.lifetime == 'onceoff'

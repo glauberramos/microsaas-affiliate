@@ -3,7 +3,7 @@
     <div class="flex-grow md:flex">
       <aside class="w-100 md:w-1/6 p-4 bg-gray-800 pt-8">
         <h1 class="p-0 mb-4 text-2xl font-extrabold text-white">
-          MicroSaaS Affiliates Programs
+          MicroSaaS Affiliate Programs
         </h1>
         <h2 class="text-md mb-2 text-gray-100">Filter by Commission</h2>
         <select

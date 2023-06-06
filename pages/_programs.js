@@ -72,8 +72,7 @@ export const programs = [
   },
   {
     name: 'Super Send',
-    description:
-      'Automate outbound cold outreach across linkedin, twitter, and email',
+    description: 'Automate outbound cold outreach',
     url: 'https://supersend.io/',
     programUrl: 'https://super-send.getrewardful.com',
     commission: 30,
@@ -321,5 +320,36 @@ export const programs = [
     commission: 25,
     lifetime: 'recurring',
     category: 'social',
+  },
+  {
+    name: 'Interaxai',
+    description: 'No-Code Monetizable and Embeddable AI Widgets',
+    url: 'https://interaxai.com/',
+    programUrl: 'https://interaxai.com/affiliate',
+    commission: 10,
+    lifetime: 'recurring',
+    category: 'ai',
+  },
+  {
+    name: 'Typing Mind',
+    logo: 'https://www.typingmind.com/apple-icon-152x152.png',
+    description: 'A better UI for ChatGPT',
+    url: 'https://www.typingmind.com/',
+    programUrl: 'https://tdinh.lemonsqueezy.com/affiliates',
+    commission: 59,
+    lifetime: 'onceoff',
+    category: 'ai',
+  },
+  {
+    name: 'My Ask AI',
+    logo: 'https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F7ac07acbae116a5155080d295197d8d6.cdn.bubble.io%2Ff1680092618447x871663073292272500%2FZapier%2520logo.png?w=128&h=&auto=compress&dpr=1&fit=max',
+    description:
+      'Create your own ChatGPT, add your content, launch it anywhere',
+    url: 'https://myaskai.com/',
+    programUrl: 'https://affiliates.reflio.com/invite/myaskai',
+    commission: 25,
+    type: 'percentage',
+    lifetime: 'onceoff',
+    category: 'ai',
   },
 ]

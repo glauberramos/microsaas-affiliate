@@ -61,7 +61,7 @@
                 alt="logo"
               />
               <div>
-                <h2 class="text-lg font-semibold">
+                <h2 class="text-xl font-semibold">
                   <a
                     :href="app.url"
                     target="_blank"

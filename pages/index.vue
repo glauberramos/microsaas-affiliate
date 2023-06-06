@@ -2,49 +2,60 @@
   <div class="flex flex-col min-h-screen">
     <div class="flex-grow flex">
       <aside class="w-1/6 p-4 bg-gray-900 pt-12">
-        <h2 class="text-lg font-bold mb-2 text-gray-100">Order by</h2>
-        <select
-          v-model="orderBy"
-          class="w-full p-2 border rounded bg-white text-gray-900"
-        >
-          <option disabled value="">Please select</option>
-          <option value="name">Alphabetic</option>
-          <option value="commission">Commission</option>
-        </select>
-        <br /><br />
-        <h2 class="text-lg font-bold mb-2 text-gray-100">Filter Commission</h2>
+        <h2 class="text-lg font-bold mb-2 text-gray-100">
+          Filter by Commission
+        </h2>
         <select
           v-model="filterCommission"
           class="w-full p-2 border rounded bg-white text-gray-900"
         >
           <option value="">All</option>
+          <option value="15">15%</option>
           <option value="20">20%</option>
           <option value="25">25%</option>
           <option value="30">30%</option>
+          <option value="45">45%</option>
           <option value="50">50%</option>
         </select>
         <br /><br />
-        <h2 class="text-lg font-bold mb-2 text-gray-100">Filter Category</h2>
+        <h2 class="text-lg font-bold mb-2 text-gray-100">Filter by Lifetime</h2>
+        <select
+          v-model="filterLifetime"
+          class="w-full p-2 border rounded bg-white text-gray-900"
+        >
+          <option value="">All</option>
+          <option value="recurring">Recurring</option>
+          <option value="12">12 Months</option>
+        </select>
+        <br /><br />
+        <h2 class="text-lg font-bold mb-2 text-gray-100">Filter by Category</h2>
         <select
           v-model="filterCategory"
           class="w-full p-2 border rounded bg-white text-gray-900"
         >
           <option value="">All</option>
           <option value="ai">AI</option>
+          <option value="seo">SEO</option>
           <option value="social">Social Media</option>
+          <option value="marketing">Marketing</option>
         </select>
       </aside>
       <!-- Your existing code -->
       <div class="w-5/6 p-4">
         <h1
-          class="p-4 mt-3 text-3xl font-extrabold tracking-tight text-slate-900"
+          class="p-4 mt-3 mb-0 pb-1 text-3xl font-extrabold tracking-tight text-slate-900"
         >
-          MicroSaaS Affiliate Program Directory
+          MicroSaaS Affiliate Programs
         </h1>
+        <p class="ml-4 mb-2">{{ apps.length }} affiliate programs</p>
         <div class="flex flex-wrap">
           <div v-for="app in filteredApps" :key="app.name" class="w-1/3 p-4">
             <div class="flex items-start p-2 bg-white rounded shadow">
-              <img :src="app.logo" class="w-12 h-12 ml-2 mr-3 p-1" alt="logo" />
+              <img
+                :src="app.logo ? app.logo : app.url + '/favicon.ico'"
+                class="w-12 h-12 ml-2 mr-3 p-1"
+                alt="logo"
+              />
               <div>
                 <h2 class="text-lg font-semibold">
                   <a
@@ -58,9 +69,14 @@
                 <p class="text-gray-500">{{ app.description }}</p>
 
                 <p class="text-sm text-gray-500">
-                  <strong>Commission: </strong>{{ app.commission }}% ({{
-                    app.timeframe ? app.timeframe : 'recurring'
-                  }})
+                  <strong>Commission: </strong>{{ app.commission }}%
+                  <br />
+                  <strong>Lifetime: </strong
+                  >{{
+                    app.lifetime == 'recurring'
+                      ? 'Recurring'
+                      : app.lifetime + ' months'
+                  }}
                   <br />
                   <a
                     :href="app.programUrl"
@@ -140,7 +156,7 @@ export default {
     return {
       apps: programs,
       filterCommission: '',
-      orderBy: '',
+      filterLifetime: '',
       filterCategory: '',
     }
   },
@@ -153,9 +169,9 @@ export default {
         .filter((app) =>
           this.filterCategory ? app.category == this.filterCategory : true
         )
-        .sort((a, b) => {
-          return this.orderBy ? (a[this.orderBy] > b[this.orderBy] ? 1 : -1) : 1
-        })
+        .filter((app) =>
+          this.filterLifetime ? app.lifetime == this.filterLifetime : true
+        )
     },
   },
 }

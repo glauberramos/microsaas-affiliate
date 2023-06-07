@@ -70,10 +70,6 @@
       </aside>
       <!-- Your existing code -->
       <div class="w-full md:w-5/6 bg-gray-100">
-        <!-- <h1 class="p-4 mt-3 mb-0 pb-1 text-3xl font-extrabold text-slate-900">
-          MicroSaaS Affiliate Programs
-        </h1> -->
-        <!-- <p class="mt-6 font-bold pl-7">{{ filteredApps.length }} results</p> -->
         <div class="flex flex-wrap pl-4 pr-4 pt-5">
           <div
             v-for="app in filteredApps"
@@ -89,8 +85,9 @@
               <div>
                 <h2 class="text-lg font-semibold">
                   <a
-                    :href="app.url"
-                    target="_blank"
+                    :href="
+                      '/program/' + app.name.toLowerCase().split(' ').join('-')
+                    "
                     rel="noopener noreferrer"
                     class="text-blue-500 hover:underline"
                     >{{ app.name }}</a

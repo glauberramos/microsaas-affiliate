@@ -17,6 +17,7 @@
           <option value="20">20%</option>
           <option value="25">25%</option>
           <option value="30">30%</option>
+          <option value="40">40%</option>
           <option value="45">45%</option>
           <option value="50">50%</option>
         </select>
@@ -92,6 +93,8 @@
                       ? app.type == 'percentage'
                         ? `${app.commission}%`
                         : `$${app.commission}.00`
+                      : app.type == 'fixed'
+                      ? `$${app.commission}.00`
                       : `${app.commission}%`
                   }}
                   <br />

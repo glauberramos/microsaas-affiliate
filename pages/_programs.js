@@ -6,6 +6,7 @@ export const programs = [
     programUrl: 'https://easyretro.io/affiliate-program',
     commission: 20,
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'CSS Pro',
@@ -15,6 +16,7 @@ export const programs = [
     programUrl: 'https://csspro.gumroad.com/affiliates',
     commission: 20,
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'Senja',
@@ -24,6 +26,7 @@ export const programs = [
     programUrl: 'https://senja.io/affiliates',
     commission: 30,
     lifetime: 'recurring',
+    category: 'testimonial',
   },
   {
     name: 'Testimonial',
@@ -33,6 +36,7 @@ export const programs = [
     programUrl: 'https://testimonial.to/affiliates',
     commission: 30,
     lifetime: 'recurring',
+    category: 'testimonial',
   },
   {
     name: 'Photo AI',
@@ -50,6 +54,7 @@ export const programs = [
     programUrl: 'https://video-tap.getrewardful.com',
     commission: 50,
     lifetime: 'recurring',
+    category: 'marketing',
   },
   {
     name: 'OneUp',
@@ -69,6 +74,7 @@ export const programs = [
     programUrl: 'https://gummysearch.getrewardful.com',
     commission: 20,
     lifetime: 'recurring',
+    category: 'social',
   },
   {
     name: 'HeadshotPro',
@@ -95,6 +101,7 @@ export const programs = [
     programUrl: 'https://tally.so/help/affiliate-program',
     commission: 20,
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'Transistor FM',
@@ -104,6 +111,7 @@ export const programs = [
     programUrl: 'https://affiliates.transistor.fm',
     commission: 25,
     lifetime: 'recurring',
+    category: 'hosting',
   },
   {
     name: 'Typefully',
@@ -124,6 +132,7 @@ export const programs = [
     programUrl: 'https://closet.tools/affiliate',
     commission: 30,
     lifetime: 'recurring',
+    category: 'marketplace',
   },
   {
     name: 'Geekbot',
@@ -132,6 +141,7 @@ export const programs = [
     programUrl: 'https://geekbot.com/affiliates',
     commission: 20,
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'Low Fruits',
@@ -159,6 +169,7 @@ export const programs = [
     programUrl: 'https://friends.rewardful.com',
     commission: 25,
     lifetime: '12',
+    category: 'affiliate',
   },
   {
     name: 'Tweet Hunter',
@@ -168,6 +179,7 @@ export const programs = [
     programUrl: 'https://tweethunter.getrewardful.com',
     commission: 30,
     lifetime: 'recurrent',
+    category: 'social',
   },
   {
     name: 'Feather',
@@ -177,6 +189,7 @@ export const programs = [
     programUrl: 'https://feather.getrewardful.com',
     commission: 25,
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'InstantChapters',
@@ -186,6 +199,7 @@ export const programs = [
     programUrl: 'https://instantchapters.getrewardful.com',
     commission: 30,
     lifetime: '12',
+    category: 'social',
   },
   {
     name: 'BannerBear',
@@ -236,6 +250,7 @@ export const programs = [
     programUrl: 'https://sprintful.getrewardful.com',
     commission: 20,
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'SignWell',
@@ -246,6 +261,7 @@ export const programs = [
     programUrl: 'https://signwell.getrewardful.com',
     commission: 25,
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'EverBee',
@@ -255,6 +271,7 @@ export const programs = [
     programUrl: 'https://everbee.getrewardful.com',
     commission: 30,
     lifetime: '12',
+    category: 'marketplace',
   },
   {
     name: 'SavvyCal',
@@ -264,6 +281,7 @@ export const programs = [
     programUrl: 'https://savvycal.getrewardful.com',
     commission: 25,
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'EmailOctopus',
@@ -281,6 +299,7 @@ export const programs = [
     programUrl: 'https://t.ly/affiliate',
     commission: 20,
     lifetime: '12',
+    category: 'productivity',
   },
   {
     name: 'MemberSpace',
@@ -290,6 +309,7 @@ export const programs = [
     programUrl: 'https://www.memberspace.com/affiliates/',
     commission: 25,
     lifetime: 'recurring',
+    category: 'affiliate',
   },
   {
     name: 'ChatBase',
@@ -387,6 +407,7 @@ export const programs = [
     programUrl: 'https://tiiny.host/affiliates',
     commission: 20,
     lifetime: 'recurring',
+    category: 'hosting',
   },
   {
     name: 'Carrd',
@@ -396,6 +417,7 @@ export const programs = [
     programUrl: 'https://carrd.co/docs/account/referral-program',
     commission: 30,
     lifetime: 'recurring',
+    category: 'hosting',
   },
   {
     name: 'Leave Me Alone',
@@ -405,6 +427,7 @@ export const programs = [
     programUrl: 'https://leavemealone.com/friends/',
     commission: 30,
     lifetime: '12',
+    category: 'productivity',
   },
   {
     name: 'PostSheet',
@@ -414,6 +437,7 @@ export const programs = [
     programUrl: 'https://postsheet.com/affiliate',
     commission: 25,
     lifetime: 'recurring',
+    category: 'marketing',
   },
   {
     name: 'ContentBot',
@@ -453,6 +477,7 @@ export const programs = [
     programUrl: 'https://affiliates.reflio.com/invite/famewall',
     commission: 25,
     lifetime: 'recurring',
+    category: 'testimonial',
   },
   {
     name: 'Pallyy',
@@ -495,6 +520,7 @@ export const programs = [
     programUrl: 'https://docs.pirsch.io/affiliate',
     commission: 6,
     lifetime: 'onceoff',
+    category: 'marketing',
   },
   {
     name: 'Snappa',
@@ -505,6 +531,7 @@ export const programs = [
     commission: 6,
     type: 'fixed',
     lifetime: 'recurring',
+    category: 'productivity',
   },
   {
     name: 'TrackDesk',
@@ -513,6 +540,7 @@ export const programs = [
     programUrl: 'https://trackdesk.com/affiliate-program',
     commission: 30,
     lifetime: 'recurring',
+    category: 'affiliate',
   },
   {
     name: 'Imitate Email',
@@ -521,5 +549,6 @@ export const programs = [
     programUrl: 'https://imitate.email/affiliates',
     commission: 40,
     lifetime: '12',
+    category: 'productivity',
   },
 ]

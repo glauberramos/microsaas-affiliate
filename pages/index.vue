@@ -46,9 +46,14 @@
         >
           <option value="">All</option>
           <option value="ai">AI</option>
+          <option value="productivity">Productivity</option>
           <option value="seo">SEO</option>
           <option value="social">Social Media</option>
           <option value="marketing">Marketing</option>
+          <option value="testimonial">Testimonial</option>
+          <option value="hosting">Hosting</option>
+          <option value="marketplace">Marketplace</option>
+          <option value="affiliate">Affiliate</option>
         </select>
         <a
           class="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 mb-2 mt-4 md:mt-7 text-center inline-block"

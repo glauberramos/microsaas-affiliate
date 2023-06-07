@@ -29,6 +29,9 @@
           </aside>
           <div class="home-text">
             <div class="ml-8 mp-10">
+              <a class="underline mt-5 text-gray-500 inline-block" href="/"
+                >< Go back</a
+              >
               <h2 class="text-4xl font-semibold mb-4">
                 <img
                   :src="
@@ -36,7 +39,7 @@
                       ? programData.logo
                       : programData.url + '/favicon.ico'
                   "
-                  class="w-12 h-12 p-1 mt-8 mb-2"
+                  class="w-12 h-12 p-1 mt-4 mb-2"
                   alt="logo"
                 />
                 {{ programData.name }} Affiliate Program
@@ -79,9 +82,6 @@
                   >Open Website</a
                 >
               </p>
-              <a class="underline mt-5 text-gray-500 inline-block" href="/"
-                >Back to all affiliate programs</a
-              >
             </div>
           </div>
         </div>

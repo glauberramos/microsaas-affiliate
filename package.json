@@ -10,7 +10,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier",
     "lintfix": "prettier --write --list-different .",
-    "deploy": "npm run generate && push-dir --dir=dist --branch=github-pages"
+    "deploy": "npm run generate && cd dist && rm -rf .git && git init && git add . && git commit -m 'deploy' && git remote add origin git@github.com:glauberramos/microsaas-affiliate.git && git push origin master:refs/heads/gh-pages --force && cd .."
   },
   "dependencies": {
     "core-js": "^3.25.3",

@@ -86,7 +86,12 @@
                 <h2 class="text-lg font-semibold">
                   <a
                     :href="
-                      '/program/' + app.name.toLowerCase().split(' ').join('-')
+                      '/affiliate-program/' +
+                      app.name
+                        .toLowerCase()
+                        .split(' ')
+                        .join('-')
+                        .replace('.', '')
                     "
                     rel="noopener noreferrer"
                     class="text-blue-500 hover:underline"

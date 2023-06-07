@@ -98,7 +98,13 @@ export default {
     const { program } = params
 
     for (let index in programs) {
-      if (programs[index].name.toLowerCase().split(' ').join('-') === program) {
+      if (
+        programs[index].name
+          .toLowerCase()
+          .split(' ')
+          .join('-')
+          .replace('.', '') === program
+      ) {
         return {
           programData: programs[index],
         }

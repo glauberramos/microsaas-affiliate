@@ -8,7 +8,7 @@
         <h2 class="text-md mb-2 text-gray-100">Filter by Commission</h2>
         <select
           v-model="filterCommission"
-          class="w-full p-2 border rounded bg-white text-white bg-gray-800"
+          class="w-full p-2 border rounded text-white bg-gray-800"
         >
           <option value="">All</option>
           <option value="15">15%</option>
@@ -22,7 +22,7 @@
         <h2 class="text-md mb-2 text-gray-100">Filter by Lifetime</h2>
         <select
           v-model="filterLifetime"
-          class="w-full p-2 border rounded bg-white text-white bg-gray-800"
+          class="w-full p-2 border rounded text-white bg-gray-800"
         >
           <option value="">All</option>
           <option value="recurring">Recurring</option>
@@ -33,7 +33,7 @@
         <h2 class="text-md mb-2 text-gray-100">Filter by Category</h2>
         <select
           v-model="filterCategory"
-          class="w-full p-2 border rounded bg-white text-white bg-gray-800"
+          class="w-full p-2 border rounded text-white bg-gray-800"
         >
           <option value="">All</option>
           <option value="ai">AI</option>

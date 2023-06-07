@@ -10,7 +10,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier",
     "lintfix": "prettier --write --list-different .",
-    "deploy": "npm run generate && push-dir --dir=dist --branch=github-pages --cleanup"
+    "deploy": "npm run generate && push-dir --dir=dist --branch=github-pages"
   },
   "dependencies": {
     "core-js": "^3.25.3",

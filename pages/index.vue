@@ -7,7 +7,9 @@
         <h1 class="p-0 mb-4 text-2xl font-extrabold text-white">
           MicroSaaS Affiliate Programs
         </h1>
-        <h2 class="text-md mb-2 text-gray-100">Filter by Commission</h2>
+        <h2 class="text-md mb-2 mt-2 md:mt-0 text-gray-100">
+          Filter by Commission
+        </h2>
         <select
           v-model="filterCommission"
           class="w-full p-2 border rounded text-white bg-gray-800"
@@ -22,7 +24,9 @@
           <option value="50">50%</option>
         </select>
         <br />
-        <h2 class="text-md mb-2 text-gray-100">Filter by Lifetime</h2>
+        <h2 class="text-md mb-2 mt-2 md:mt-0 text-gray-100">
+          Filter by Lifetime
+        </h2>
         <select
           v-model="filterLifetime"
           class="w-full p-2 border rounded text-white bg-gray-800"
@@ -33,7 +37,9 @@
           <option value="onceoff">Once Off</option>
         </select>
         <br />
-        <h2 class="text-md mb-2 text-gray-100">Filter by Category</h2>
+        <h2 class="text-md mb-2 mt-2 md:mt-0 text-gray-100">
+          Filter by Category
+        </h2>
         <select
           v-model="filterCategory"
           class="w-full p-2 border rounded text-white bg-gray-800"
@@ -44,8 +50,14 @@
           <option value="social">Social Media</option>
           <option value="marketing">Marketing</option>
         </select>
+        <a
+          class="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 mb-2 mt-4 md:mt-7 text-center inline-block"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeY2wbBy_Wuhhh32q74MtlfF9Ih_4cTci9T_hZkgjFyPfQUKg/viewform?usp=sf_link"
+          target="_blank"
+          >Submit a Program</a
+        >
         <footer
-          class="bg-gray-800 text-center text-white text-sm mt-3 md:mt-auto"
+          class="bg-gray-800 text-left md:text-center text-white text-sm mt-3 md:mt-auto"
         >
           Made with ❤️ by
           <a

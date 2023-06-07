@@ -2,7 +2,7 @@
   <div class="flex flex-col min-h-screen">
     <div class="flex-grow md:flex">
       <aside
-        class="w-100 md:w-1/6 p-4 bg-gray-800 pt-8 pl-6 pr-6 md:sticky md:self-start md:min-h-screen md:top-0"
+        class="w-100 md:w-1/6 p-4 bg-gray-800 pt-8 pl-6 pr-6 md:sticky md:self-start md:min-h-screen md:top-0 md:flex flex-col"
       >
         <h1 class="p-0 mb-4 text-2xl font-extrabold text-white">
           MicroSaaS Affiliate Programs
@@ -20,7 +20,7 @@
           <option value="45">45%</option>
           <option value="50">50%</option>
         </select>
-        <br /><br />
+        <br />
         <h2 class="text-md mb-2 text-gray-100">Filter by Lifetime</h2>
         <select
           v-model="filterLifetime"
@@ -31,7 +31,7 @@
           <option value="12">12 Months</option>
           <option value="onceoff">Once Off</option>
         </select>
-        <br /><br />
+        <br />
         <h2 class="text-md mb-2 text-gray-100">Filter by Category</h2>
         <select
           v-model="filterCategory"
@@ -43,6 +43,17 @@
           <option value="social">Social Media</option>
           <option value="marketing">Marketing</option>
         </select>
+        <footer
+          class="bg-gray-800 text-center text-white text-sm mt-3 md:mt-auto"
+        >
+          Made with ❤️ by
+          <a
+            href="https://easyretro.io"
+            target="_blank"
+            class="text-blue-500 hover:underline"
+            >EasyRetro</a
+          >
+        </footer>
       </aside>
       <!-- Your existing code -->
       <div class="w-full md:w-5/6 bg-gray-100">
@@ -161,16 +172,6 @@
             getting paid.
           </p>
         </div>
-        <!-- Footer -->
-        <footer class="p-4 bg-gray-800 text-center text-white">
-          Made with ❤️ by
-          <a
-            href="https://easyretro.io"
-            target="_blank"
-            class="text-blue-500 hover:underline"
-            >EasyRetro</a
-          >
-        </footer>
       </div>
     </div>
   </div>

@@ -10,7 +10,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier",
     "lintfix": "prettier --write --list-different .",
-    "deploy": "npm run generate && git add . && git commit -m 'generate' && git push origin master && git push origin origin/github-pages --force && git subtree push --prefix dist origin github-pages"
+    "deploy": "npm run generate && push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "core-js": "^3.25.3",
@@ -23,6 +23,7 @@
     "@nuxtjs/tailwindcss": "^5.3.3",
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.4.17",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "push-dir": "^0.4.1"
   }
 }

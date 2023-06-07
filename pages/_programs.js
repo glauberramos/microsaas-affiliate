@@ -276,7 +276,7 @@ export const programs = [
   },
   {
     name: 'T.LY',
-    description: 'Email marketing made easy',
+    description: "World's Shortest Link Shortener service",
     url: 'https://t.ly',
     programUrl: 'https://t.ly/affiliate',
     commission: 20,

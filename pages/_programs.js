@@ -8,6 +8,15 @@ export const programs = [
     lifetime: 'recurring',
   },
   {
+    name: 'CSS Pro',
+    logo: 'https://csspro.com/apple-touch-icon.png',
+    description: 'A re-imagined Devtools for web design',
+    url: 'https://csspro.com',
+    programUrl: 'https://csspro.gumroad.com/affiliates',
+    commission: 20,
+    lifetime: 'recurring',
+  },
+  {
     name: 'Senja',
     logo: 'https://framerusercontent.com/images/FKXyQKfcgQzBRcrolOI4cjpNGwk.png',
     description: 'Collect, Manage and Share Testimonials',

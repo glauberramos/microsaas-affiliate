@@ -168,14 +168,72 @@
 import { programs } from './_programs'
 
 export default {
-  head: {
-    script: [
-      {
-        defer: true,
-        dataDomain: 'microsaasaffiliate.com',
-        src: 'https://plausible.io/js/script.js',
-      },
-    ],
+  head() {
+    const metaTitle = 'Discover the latest microsaas affiliate programs'
+    const metaDesc =
+      'The biggest directory of microsaas affiliate programs by indie hackers, bootstrapped founders and solopreneurs.'
+
+    const imageTitle = encodeURIComponent(metaTitle)
+    const imageDescription = encodeURIComponent(metaDesc)
+    const imageURL = `https://us-central1-funretro-pro.cloudfunctions.net/previewImage?text=${imageTitle}&desc=${imageDescription}`
+
+    return {
+      title: metaTitle,
+      script: [
+        {
+          defer: true,
+          dataDomain: 'microsaasaffiliate.com',
+          src: 'https://plausible.io/js/script.js',
+        },
+      ],
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: metaDesc,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: metaTitle,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: metaDesc,
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: metaTitle,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: metaDesc,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: imageURL,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: imageURL,
+        },
+        {
+          hid: 'og:image:width',
+          name: 'og:image:width',
+          content: '1200',
+        },
+        {
+          hid: 'og:image:height',
+          name: 'og:image:height',
+          content: '630',
+        },
+      ],
+    }
   },
   data() {
     return {

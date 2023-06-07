@@ -147,7 +147,7 @@
           </p>
 
           <h2 class="text-2xl font-bold mb-2">
-            How do We Select the Affiliate Programs?
+            How do We Select our MicroSaaS Affiliate Programs?
           </h2>
           <p class="mb-4">
             We select MicroSaaS that are run by Indie Hackers, Bootstrapped

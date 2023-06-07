@@ -164,16 +164,19 @@
   </div>
 </template>
 
-<script
-  defer
-  data-domain="microsaasaffiliate.com"
-  src="https://plausible.io/js/script.js"
-></script>
-
 <script>
 import { programs } from './_programs'
 
 export default {
+  head: {
+    script: [
+      {
+        defer: true,
+        dataDomain: 'microsaasaffiliate.com',
+        src: 'https://plausible.io/js/script.js',
+      },
+    ],
+  },
   data() {
     return {
       apps: programs,

@@ -194,9 +194,9 @@ import { programs } from './_programs'
 
 export default {
   head() {
-    const metaTitle = 'Discover the latest microsaas affiliate programs'
+    const metaTitle = 'Discover the latest MicroSaaS Affiliate Programs'
     const metaDesc =
-      'The biggest directory of microsaas affiliate programs by indie hackers, bootstrapped founders and solopreneurs.'
+      'The biggest directory of MicroSaaS Affiliate Programs by indie hackers, bootstrapped founders and solopreneurs.'
 
     const imageTitle = encodeURIComponent(metaTitle)
     const imageDescription = encodeURIComponent(metaDesc)

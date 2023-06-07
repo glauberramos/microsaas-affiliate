@@ -10,7 +10,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier",
     "lintfix": "prettier --write --list-different .",
-    "deploy": "npm run generate && git add . && git commit -m 'generate' && git push origin master && git push origin github-pages --force && git subtree push --prefix dist origin github-pages"
+    "deploy": "npm run generate && git add . && git commit -m 'generate' && git push origin master && git push origin origin/github-pages --force && git subtree push --prefix dist origin github-pages"
   },
   "dependencies": {
     "core-js": "^3.25.3",

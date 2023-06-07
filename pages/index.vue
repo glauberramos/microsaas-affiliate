@@ -103,7 +103,7 @@
             </div>
           </div>
         </div>
-        <div class="p-7">
+        <div class="p-7 pl-10 pr-10 max-w-4xl">
           <h2 class="text-2xl font-bold mb-2">What is MicroSaaS?</h2>
           <p class="mb-4">
             MicroSaaS is a unique subset of the Software as a Service (SaaS)
@@ -116,6 +116,16 @@
             providing a simple, effective solution. They typically require less
             capital to start and operate than larger SaaS businesses and can
             become profitable more quickly.
+          </p>
+
+          <h2 class="text-2xl font-bold mb-2">
+            How do you Select the Affiliate Programs?
+          </h2>
+          <p class="mb-4">
+            We select MicroSaaS that are run by Indie Hackers, Bootstrapped
+            Founders, Solopreneurs and Indie Makers. We prefer to select SaaS
+            that are run by 1 person or a small team, that serves a specific
+            niche, that are independent and don't have any external funding.
           </p>
 
           <h2 class="text-2xl font-bold mb-2">

@@ -163,7 +163,7 @@ export const programs = [
   {
     name: 'Tweet Hunter',
     logo: 'https://uploads-ssl.webflow.com/62753f70ab07d3b66d844be5/62753f70ab07d30c6e844c5d_Group%20252%20(1).png',
-    description: 'Launch Your Affiliate Program With Ease',
+    description: 'Build & Monetize Your Twitter Audience',
     url: 'https://tweethunter.io/',
     programUrl: 'https://tweethunter.getrewardful.com',
     commission: 30,

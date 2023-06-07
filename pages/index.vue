@@ -177,7 +177,7 @@
             of the product or service to your audience. It's also a good idea to
             use the product yourself so you can promote it authentically.
           </p>
-          <p class="mb-6">
+          <p>
             Remember, the key to successful affiliate marketing is trust. Your
             audience needs to trust that you're recommending products because
             you genuinely believe they're valuable, not just because you're

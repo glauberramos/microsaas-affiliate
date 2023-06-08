@@ -420,16 +420,6 @@ export const programs = [
     category: 'hosting',
   },
   {
-    name: 'Leave Me Alone',
-    logo: 'https://leavemealone.com/favicons/apple-icon-120x120.png',
-    description: 'Easily unsubscribe from emails',
-    url: 'https://leavemealone.com/',
-    programUrl: 'https://leavemealone.com/friends/',
-    commission: 30,
-    lifetime: '12',
-    category: 'productivity',
-  },
-  {
     name: 'PostSheet',
     logo: 'https://postsheet.com/apple-touch-icon-114x114-precomposed.png',
     description: 'Effortlessly send personalized emails & text messages',
@@ -551,4 +541,14 @@ export const programs = [
     lifetime: '12',
     category: 'productivity',
   },
+  // {
+  //   name: 'Leave Me Alone',
+  //   logo: 'https://leavemealone.com/favicons/apple-icon-120x120.png',
+  //   description: 'Easily unsubscribe from emails',
+  //   url: 'https://leavemealone.com/',
+  //   programUrl: 'https://leavemealone.com/friends/',
+  //   commission: 30,
+  //   lifetime: '12',
+  //   category: 'productivity',
+  // },
 ]

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/imitate-email", {data:[{programData:{name:"Imitate Email",description:"The easiest way to see how the embedded email viewer works",url:"https:\u002F\u002Fimitate.email\u002F",programUrl:"https:\u002F\u002Fimitate.email\u002Faffiliates",commission:40,lifetime:"12",category:"productivity"}}],fetch:{},mutations:void 0});

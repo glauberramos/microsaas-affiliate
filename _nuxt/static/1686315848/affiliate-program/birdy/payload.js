@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/birdy", {data:[{programData:{name:"Birdy",logo:"https:\u002F\u002Fbirdy.so\u002Fpurple-bird-twemoji.svg",description:"Get more Twitter followers",url:"https:\u002F\u002Fbirdy.so",programUrl:"https:\u002F\u002Faffiliates.reflio.com\u002Finvite\u002Fbirdy",commission:30,lifetime:"recurring",category:"social"}}],fetch:{},mutations:void 0});

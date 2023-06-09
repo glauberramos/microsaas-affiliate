@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/closet-tools", {data:[{programData:{name:"Closet Tools",description:"Poshmark Bot - Make more sales, get more followers, and spend less time sharing",url:"https:\u002F\u002Fcloset.tools",programUrl:"https:\u002F\u002Fcloset.tools\u002Faffiliate",commission:30,lifetime:"recurring",category:"marketplace"}}],fetch:{},mutations:void 0});

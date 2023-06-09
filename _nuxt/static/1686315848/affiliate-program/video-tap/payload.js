@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/video-tap", {data:[{programData:{name:"Video Tap",description:"Get more out of the videos your already made",url:"https:\u002F\u002Fvideotapit.com",programUrl:"https:\u002F\u002Fvideo-tap.getrewardful.com",commission:50,lifetime:"recurring",category:"marketing"}}],fetch:{},mutations:void 0});

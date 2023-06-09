@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/feather", {data:[{programData:{name:"Feather",logo:"https:\u002F\u002Ffeather.so\u002Fimages\u002Fwhite-bg-144.png",description:"Notion to Blog in minutes",url:"https:\u002F\u002Ffeather.so\u002F",programUrl:"https:\u002F\u002Ffeather.getrewardful.com",commission:25,lifetime:"recurring",category:"productivity"}}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/chatbase", {data:[{programData:{name:"ChatBase",description:"Custom ChatGPT for your data",url:"https:\u002F\u002Fwww.chatbase.co\u002F",programUrl:"https:\u002F\u002Fchatbase-co.getrewardful.com",commission:20,lifetime:"12",category:"ai"}}],fetch:{},mutations:void 0});

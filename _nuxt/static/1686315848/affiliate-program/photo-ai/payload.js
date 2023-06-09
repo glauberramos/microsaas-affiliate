@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/photo-ai", {data:[{programData:{name:"Photo AI",description:"Take photographs with AI",url:"https:\u002F\u002Fphotoai.com",programUrl:"https:\u002F\u002Fphoto-ai.getrewardful.com",commission:20,lifetime:"recurring",category:"ai"}}],fetch:{},mutations:void 0});

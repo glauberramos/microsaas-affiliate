@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/easyretro", {data:[{programData:{name:"EasyRetro",description:"Simple, Intuitive and Engaging Retrospectives",url:"https:\u002F\u002Feasyretro.io",programUrl:"https:\u002F\u002Feasyretro.io\u002Faffiliate-program",commission:20,lifetime:"recurring",category:"productivity"}}],fetch:{},mutations:void 0});

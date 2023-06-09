@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/emailoctopus", {data:[{programData:{name:"EmailOctopus",description:"Manage and email your subscribers for far cheaper",url:"https:\u002F\u002Femailoctopus.com\u002F",programUrl:"https:\u002F\u002Femailoctopus.com\u002Faffiliates",commission:30,lifetime:"recurring",category:"marketing"}}],fetch:{},mutations:void 0});

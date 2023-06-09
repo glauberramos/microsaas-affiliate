@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/oneup", {data:[{programData:{name:"OneUp",logo:"https:\u002F\u002Fwww.oneupapp.io\u002Fimg\u002Foneup-square.png",description:"Schedule your social media posts",url:"https:\u002F\u002Fwww.oneupapp.io",programUrl:"https:\u002F\u002Foneup.getrewardful.com",commission:20,lifetime:"recurring",category:"social"}}],fetch:{},mutations:void 0});

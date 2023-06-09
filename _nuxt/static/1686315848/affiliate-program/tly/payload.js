@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/tly", {data:[{programData:{name:"T.LY",description:"World's Shortest Link Shortener service",url:"https:\u002F\u002Ft.ly",programUrl:"https:\u002F\u002Ft.ly\u002Faffiliate",commission:20,lifetime:"12",category:"productivity"}}],fetch:{},mutations:void 0});

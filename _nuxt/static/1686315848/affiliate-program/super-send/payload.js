@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/super-send", {data:[{programData:{name:"Super Send",description:"Automate outbound cold outreach",url:"https:\u002F\u002Fsupersend.io\u002F",programUrl:"https:\u002F\u002Fsuper-send.getrewardful.com",commission:30,lifetime:"12",category:"social"}}],fetch:{},mutations:void 0});

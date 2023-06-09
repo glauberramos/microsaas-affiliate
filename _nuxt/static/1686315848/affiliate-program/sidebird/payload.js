@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/sidebird", {data:[{programData:{name:"SideBird",description:"Stop chasing Twitter followers. Get fans",url:"https:\u002F\u002Fwww.sidebird.io\u002F",programUrl:"https:\u002F\u002Faffiliates.reflio.com\u002Finvite\u002Fsidebird",commission:30,lifetime:"recurring",category:"social"}}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/tally", {data:[{programData:{name:"Tally",description:"The simplest way to create forms",url:"https:\u002F\u002Ftally.so",programUrl:"https:\u002F\u002Ftally.so\u002Fhelp\u002Faffiliate-program",commission:20,lifetime:"recurring",category:"productivity"}}],fetch:{},mutations:void 0});

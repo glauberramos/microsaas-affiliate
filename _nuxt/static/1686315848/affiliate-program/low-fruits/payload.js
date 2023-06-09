@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/low-fruits", {data:[{programData:{name:"Low Fruits",description:"Find untapped keywords today to rank faster",url:"https:\u002F\u002Flowfruits.io",programUrl:"https:\u002F\u002Flowfruits.io\u002Faffiliate",commission:20,lifetime:"recurring",category:"seo"}}],fetch:{},mutations:void 0});

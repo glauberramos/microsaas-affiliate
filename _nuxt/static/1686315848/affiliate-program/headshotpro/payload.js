@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/headshotpro", {data:[{programData:{name:"HeadshotPro",description:"Professional corporate headshots",url:"https:\u002F\u002Fwww.headshotpro.com\u002F",programUrl:"https:\u002F\u002Fheadshotpro-1.getrewardful.com\u002F",commission:20,lifetime:"recurring",category:"ai"}}],fetch:{},mutations:void 0});

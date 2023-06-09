@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/also-asked", {data:[{programData:{name:"Also Asked",description:"Find the questions people also ask",url:"https:\u002F\u002Falsoasked.com",programUrl:"https:\u002F\u002Falsoasked.getrewardful.com",commission:20,lifetime:"recurring",category:"seo"}}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/ilo", {data:[{programData:{name:"ILO",logo:"https:\u002F\u002Filo.so\u002Fstatic\u002Ffavicon.png",description:"A little app to help you get big on Twitter",url:"https:\u002F\u002Filo.so\u002F",programUrl:"https:\u002F\u002Filo.so\u002Faffiliates\u002F",commission:25,lifetime:"recurring",category:"social"}}],fetch:{},mutations:void 0});

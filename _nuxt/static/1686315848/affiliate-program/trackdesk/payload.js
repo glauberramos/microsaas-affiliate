@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/trackdesk", {data:[{programData:{name:"TrackDesk",description:"Do More With Your Affiliate Tracking Software",url:"https:\u002F\u002Ftrackdesk.com",programUrl:"https:\u002F\u002Ftrackdesk.com\u002Faffiliate-program",commission:30,lifetime:"recurring",category:"affiliate"}}],fetch:{},mutations:void 0});

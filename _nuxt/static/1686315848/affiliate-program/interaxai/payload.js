@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/interaxai", {data:[{programData:{name:"Interaxai",description:"No-Code Monetizable and Embeddable AI Widgets",url:"https:\u002F\u002Finteraxai.com\u002F",programUrl:"https:\u002F\u002Finteraxai.com\u002Faffiliate",commission:10,lifetime:"recurring",category:"ai"}}],fetch:{},mutations:void 0});

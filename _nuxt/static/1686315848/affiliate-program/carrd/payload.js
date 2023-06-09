@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/affiliate-program/carrd", {data:[{programData:{name:"Carrd",description:"Simple, free, fully responsive one-page sites for pretty much anything",url:"https:\u002F\u002Fcarrd.co",programUrl:"https:\u002F\u002Fcarrd.co\u002Fdocs\u002Faccount\u002Freferral-program",commission:30,lifetime:"recurring",category:"hosting"}}],fetch:{},mutations:void 0});

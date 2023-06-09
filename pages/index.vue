@@ -81,7 +81,9 @@
             :key="app.name"
             class="w-full md:w-1/2 lg:w-1/3 p-4"
           >
-            <div class="flex items-start p-2 bg-white rounded shadow pt-4 pb-3">
+            <div
+              class="flex items-start p-2 bg-white rounded shadow pt-4 pb-3 min-h-full"
+            >
               <img
                 :src="app.logo ? app.logo : app.url + '/favicon.ico'"
                 class="w-12 h-12 ml-2 mr-3 p-1"

@@ -492,17 +492,6 @@ export const programs = [
     category: 'seo',
   },
   {
-    name: 'Kat Links',
-    logo: 'https://katlinks.io/wp-content/uploads/2021/04/katlinks-icon.png',
-    description:
-      'Rank Higher and Get More Traffic with an affordable SEO Tool 🚀',
-    url: 'https://katlinks.io',
-    programUrl: 'https://katlinks.io/affiliate-program/',
-    commission: 30,
-    lifetime: 'recurring',
-    category: 'seo',
-  },
-  {
     name: 'Pirsch',
     logo: 'https://pirsch.io/static/img/favicon/apple-touch-icon.png',
     description: "It's How Analytics Should Be",
